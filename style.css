@@ -1,0 +1,63 @@
+body{
+ background-color: rgb(229, 224, 255);
+}
+.calculator{
+    background-color: rgb(114, 134, 211);
+    width: 19rem;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+input{
+    display: block;
+    width: 17rem;
+    height: 4rem;
+    margin: 0.7rem auto ;
+    border: 1px solid silver;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: rgb(255, 242, 242);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+.numbers button, .operators button{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.18rem ;
+    border: 2px solid rgb(114, 134, 211);
+    outline-width: 0px;
+    background-color: rgb(178, 193, 236);
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.079);
+}
+button.big-button{
+    height: 6.2rem;
+}
+button.clear{
+    background-color: rgb(255, 242, 242);
+}
+button.clear:hover{
+    background-color: rgb(233, 230, 230);
+}
+button.result{
+    background-color: rgb(242, 105, 105);
+}
+button.result:hover{
+    background-color: rgb(255, 108, 108);
+}
+button:hover{
+    border-color: rgb(98, 116, 188);
+    background-color: rgb(192, 206, 245);
+}
+button:active{
+    background-color: rgb(255, 242, 242);
+    font-weight: bold;
+}
+.left-panel, .right-panel{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
